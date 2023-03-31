@@ -1,0 +1,50 @@
+body {
+   background-color: rgb(222, 222, 222);
+}
+
+.wrapper {
+   margin: 100px auto;
+   width: 100%;
+}
+
+.item {
+   margin: 50px auto;
+   width: fit-content;
+   min-width: fit-content;
+}
+
+.simple-textarea {
+   padding: 20px;
+   font-size: 20px;
+   border-radius: 8px;
+}
+
+.simple-item {
+   color: white;
+   background-color: rgb(53, 144, 61);
+   border-radius: 6px;
+}
+
+.nested-p-text {
+   padding: 12px;
+   background-color: rgb(53, 144, 61);
+   color: white;
+   font-size: 20px;
+   font-weight: bold;
+   border-radius: 8px;
+}
+
+.btn {
+   background-color: rgb(53, 144, 61);
+   color: white;
+   font-size: 20px;
+   font-weight: bold;
+   padding: 24px;
+   height: 24px;
+   border: none;
+   border-radius: 8px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+}
